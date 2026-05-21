@@ -23,7 +23,7 @@ export const portfolioConfig = {
   sprintCountdown: {
     targetDate: "2026-10-15T09:00:00Z", // Youth Science Conference 2026 Target
     eventName: "YOUTH SCIENCE CONFERENCE // VNU-HCM",
-    sprintSpeed: "9.3 GPA",
+    sprintSpeed: "3.9 GPA",
     lapCount: "1 PREPRINT",
     engineTemp: "37°C (BIOLOGY)",
     tyreCompound: "PYTORCH (GNN)"
@@ -199,7 +199,7 @@ export const portfolioConfig = {
     },
     {
       date: "2022",
-      title: "World Robot Olympiad (WRO) Vietnam",
+      title: "World Robot Olympiad (WRO)",
       category: "1st Place",
       value: "Designed autonomous robot systems using computer vision and algorithmic control, leading the team to national championship."
     },
@@ -217,7 +217,7 @@ export const portfolioConfig = {
       period: "Aug 2023 – Present",
       track: "Biology Specialized Track (Lớp Chuyên Sinh)",
       location: "Ho Chi Minh City, Vietnam",
-      gpa: "GPA: 9.3+/10.0 (Highest Honors)",
+      gpa: "GPA: 3.9/4.0 (Highest Honors)",
       highlights: [
         "Biology Focus: Molecular Genetics, Classical Genetics, Population Genetics, Ecology.",
         "Self-directed AI Studies: Mathematics (Calculus, Linear Algebra) and Computer Science."
@@ -228,7 +228,7 @@ export const portfolioConfig = {
       period: "Aug 2019 – May 2023",
       track: "Secondary Education",
       location: "Ho Chi Minh City, Vietnam",
-      gpa: "GPA: 9.0+/10.0 (Highest Honors)",
+      gpa: "GPA: 3.7/4.0 (Highest Honors)",
       highlights: [
         "District-level Outstanding Student Awards in Informatics and Biology."
       ]
@@ -270,19 +270,19 @@ export const portfolioConfig = {
 
   roadmap: [
     {
-      quarter: "2026 Q2",
+      quarter: "2026 Q1",
       title: "Youth Science Conference presentation",
       description: "Presenting Lightweight Graph Neural Networks for Protein-Ligand Binding Site Prediction at University of Science, VNU-HCM.",
       status: "COMPLETED"
     },
     {
-      quarter: "2026 Q3",
+      quarter: "2026 Q2",
       title: "Asia-Pacific Student Research Conference",
       description: "Bioinformatics research preprint paper review and upcoming conference presentation session.",
       status: "IN PROGRESS"
     },
     {
-      quarter: "2026 Q4",
+      quarter: "2026 Q3",
       title: "WASM GNN Client Inference",
       description: "Compiling Graph Neural Network architectures to run inference locally in browser clients using WebAssembly.",
       status: "SCHEDULED"
