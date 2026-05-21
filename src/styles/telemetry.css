@@ -176,6 +176,19 @@
   font-weight: 400;
 }
 
+@media (max-width: 768px) {
+  .menu-left {
+    padding-left: 5%;
+    align-items: flex-start;
+  }
+  .menu-right {
+    display: none;
+  }
+  .menu-link {
+    font-size: 1.8rem;
+  }
+}
+
 /* 2. HERO & COUNTDOWN HUD */
 .hero-section {
   min-height: 100vh;
@@ -216,6 +229,12 @@
   font-size: 4rem;
   line-height: 1.1;
   margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
 }
 
 .hero-desc {
@@ -342,6 +361,12 @@
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .track-panel {
+    height: 250px;
+  }
+}
+
 .circuit-path {
   fill: none;
   stroke: rgba(255, 255, 255, 0.08);
@@ -391,7 +416,7 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
 }
 
@@ -468,7 +493,7 @@
 /* 5. OFF TRACK - LOGS */
 .offtrack-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
 }
 
@@ -768,10 +793,15 @@
   z-index: 1000;
   display: flex;
   align-items: center;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
   padding: 0 1.5rem;
   box-shadow: 0 -5px 15px rgba(6, 7, 10, 0.8);
   backdrop-filter: blur(8px);
+}
+
+.live-telemetry-bar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar on mobile */
 }
 
 .stream-wrapper {
